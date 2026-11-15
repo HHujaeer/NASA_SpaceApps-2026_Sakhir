@@ -1,0 +1,37 @@
+.lead{white-space:pre-line;font-size:20px;max-width:none;margin:18px 0 8px}
+.investigation-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(350px,410px);gap:28px;align-items:start}
+.investigation-content{min-width:0}
+.records-scroll{max-height:320px;overflow:auto;border:1px solid var(--line);border-radius:5px;margin-top:10px;overscroll-behavior:contain}
+.records-scroll table{margin:0;min-width:720px}
+.records-scroll th{position:sticky;top:0;z-index:1;background:#151b26;white-space:nowrap}
+.records-scroll td{white-space:nowrap}
+.investigation-chat{position:sticky;top:0;height:calc(100dvh - 135px);min-height:430px;display:flex;flex-direction:column;background:#101620;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.chat-heading{display:flex;justify-content:space-between;align-items:center;padding:16px;border-bottom:1px solid var(--line);gap:12px}
+.chat-heading h3{margin:0;font-size:20px}
+.investigation-messages{flex:1;min-height:0;overflow:auto;padding:16px;overscroll-behavior:contain;overflow-wrap:anywhere}
+.investigation-message{padding:12px 0;border-bottom:1px solid var(--line)}
+.investigation-message.user{background:#1c2a3a;border:0;border-radius:8px;padding:10px 12px;margin:12px 0 4px;white-space:pre-wrap}
+.chat-suggestions{display:grid;gap:8px;margin-top:16px}.chat-suggestions .btn{text-align:left}
+#investigation-chat-form{padding:14px;border-top:1px solid var(--line)}
+#investigation-chat-form label{display:block;margin-bottom:6px;color:var(--dim);font-size:13px}
+#investigation-prompt{width:100%;resize:vertical;min-height:70px;max-height:160px}
+#investigation-chat-form .row{margin:8px 0 0;align-items:center}#investigation-chat-form .sub{font-size:11px}
+.generated-chart{margin:14px 0}.generated-chart figcaption{font-weight:500;margin-bottom:8px;font-size:13px}
+.chart-canvas{position:relative;min-height:240px;height:280px}.chart-canvas:has(svg){height:auto}
+.investigation-chat details{margin-top:10px;font-size:12px}.investigation-chat .note{font-size:12px}
+.btn:disabled{opacity:.5;cursor:wait}
+@media(min-width:1500px){.investigation-layout{grid-template-columns:minmax(0,1fr) 460px}}
+@media(max-width:1050px){.investigation-layout{grid-template-columns:1fr}.investigation-chat{position:relative;height:640px;max-height:80dvh}.investigation-content dl{grid-template-columns:145px 1fr}}
+@media(max-width:600px){.investigation-content dl{grid-template-columns:1fr}.records-scroll{max-height:260px}}
+
+/* Let prose reflow across the available investigation column. */
+.investigation-content p,.investigation-content .note,.investigation-chat .md p{max-width:none}
+.investigation-content dd{min-width:0;overflow-wrap:anywhere}
+.investigation-content blockquote{margin:16px 0;padding:0 0 0 14px;border-left:2px solid var(--line)}
+.investigation-content blockquote p{margin:0 0 8px}
+.investigation-content blockquote footer{color:var(--dim);font-size:12px}
+
+.investigation-procedure{margin:18px 0;border-top:1px solid var(--line);padding-top:12px;overflow-wrap:anywhere}
+.investigation-procedure h4{margin-bottom:6px}.source-prose{white-space:pre-line}
+
+.chart-controls .f{flex:1 1 220px;min-width:0}.chart-controls select{width:100%;min-width:0}

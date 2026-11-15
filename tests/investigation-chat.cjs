@@ -1,0 +1,20 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+let request;
+const context=vm.createContext({console,vd:{det:{meas:['CO'],oxygenColumn:'O2'}},st:{sel:'PSI-25',sub:'detail'},e:s=>String(s??'').replace(/</g,'&lt;'),md:s=>s,sourcesHtml:()=>'',window:{addEventListener(){}},API:{post:async(path,body)=>{request={path,body};return {data:{answer:'Chart [E1]',chart:{type:'scatter',x:'O2',y:'CO',title:'CO vs O2',points:[{x:21,y:6,row_number:1,source:{file:'test.csv',row_number:1}}],total_points:1,skipped_rows:0,note:'Raw source values'}}}}}});
+vm.runInContext(fs.readFileSync('js/models/investigation-chat.js','utf8'),context);
+vm.runInContext(fs.readFileSync('js/views/investigation-chat.js','utf8'),context);
+(async()=>{
+ await vm.runInContext('sendInvestigationChat("Plot CO against oxygen")',context);
+ assert.equal(request.path,'/investigations/PSI-25/chat');
+ assert.equal(request.body.history.length,0);
+ assert.match(vm.runInContext('InvestigationChatView.render("PSI-25")',context),/data-chat-chart="1"/);
+ await vm.runInContext('sendInvestigationChat("Use a line chart instead")',context);
+ assert.equal(request.body.history.length,2);
+ assert.equal(request.body.history[1].role,'assistant');
+ assert.equal(vm.runInContext('investigationChat("other").messages.length',context),0);
+ const view=fs.readFileSync('js/views/investigations.js','utf8');
+ assert.doesNotMatch(view,/Undergrad|st\.aud|data-a="aud"/);
+ assert.match(view,/records-scroll/);
+ assert.match(view,/InvestigationChatView.render\(i.id\)/);
+ console.log('Investigation chat checks passed: scoped requests, follow-up history, isolated state, chart rendering markup, scroll region, audience controls removed.');
+})().catch(err=>{console.error(err);process.exitCode=1});

@@ -1,0 +1,38 @@
+{
+  "roles": {
+    "reports/SAFFIRE Objectives, Development and Status.pdf": "Program objectives and development context; not a final results report",
+    "reports/SAFFIRE-II_Image_Directory_Nomenclature_v3.0.pdf": "Image directory reference",
+    "reports/SAFFIRE-II DoD.docx": "Experiment data guide"
+  },
+  "context_only": true,
+  "data_notes": [
+    "The nine-row CSV is the supplied experiment-results source. The PDFs describe program context and image organization; the DOCX describes the data package. They are not treated as final measured-results reports.",
+    "Airflow discrepancy: The CSV lists 20 cm/s for all samples. Table 1 embedded in the DOCX lists 30 cm/s for S6 and S9. Both versions are retained; this discrepancy is unresolved.",
+    "Material is blank for samples 2-6 and 2-9 in the CSV. The DOCX Table 1 labels S6 as SIBAL fabric and S9 as flat PMMA. Raw CSV blanks are retained rather than filled from the guide.",
+    "Thickness values differ between the CSV and the DOCX Table 1, including CSV entries written as 037 mm. No decimal correction is inferred.",
+    "Oxygen values include approximations and ranges; Note 1 says these are derived from measured CO2 production and referenced to the ISS initial O2 concentration. The ?-g headers, Note 1–4 definitions and auxiliary flow-visualization records are retained. Fig. 5 and the exact meaning of ?-g are not established by the supplied files."
+  ],
+  "finding_rows": [
+    1,
+    5,
+    8,
+    9
+  ],
+  "finding_columns": [
+    "Sample Number",
+    "Material",
+    "Burn Time (s)",
+    "?-g Burn Length",
+    "?-g Spread Length",
+    "1-g Burn Length",
+    "1-g Spread Rate"
+  ],
+  "figure_transcriptions": [
+    {
+      "file": "reports/SAFFIRE-II DoD.docx",
+      "figure": "Table 1. Saffire-II Samples (embedded image word/media/image1.png)",
+      "text": "Manually transcribed from the supplied data-guide table, not substituted for CSV values. S1: Silicone, 0.25 mm, 20 cm/s, upstream igniter. S2: Silicone, 0.61 mm, 20 cm/s, upstream. S3: Silicone, 1.02 mm, 20 cm/s, upstream. S4: Silicone, 0.36 mm, 20 cm/s, downstream. S5: SIBAL fabric, 0.33 mm, 20 cm/s, upstream. S6: SIBAL fabric, 0.33 mm, 30 cm/s, upstream. S7: PMMA to Nomex, 0.33 mm, 20 cm/s, upstream. S8: Structured PMMA, 10 mm (with tapered edge for ignition), 20 cm/s, upstream. S9: Flat PMMA, 10 mm (with tapered edge for ignition), 30 cm/s, upstream."
+    }
+  ],
+  "sample_id_pattern": "^2-[1-9]$"
+}

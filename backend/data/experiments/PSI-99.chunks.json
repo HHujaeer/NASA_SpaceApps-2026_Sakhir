@@ -1,0 +1,1595 @@
+[
+  {
+    "id": "c5da2c950e6a950a7e62",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Term Source Name: EFO; PSI",
+    "field": "Term Source Name"
+  },
+  {
+    "id": "c5061cdbe90422ca964d",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Term Source File: http://data.bioontology.org/ontologies/EFO; https://psi.nasa.gov/",
+    "field": "Term Source File"
+  },
+  {
+    "id": "06001f3f330dca967723",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Term Source Version: 132; 1.0",
+    "field": "Term Source Version"
+  },
+  {
+    "id": "d81e5fc6f46cd7bee596",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Term Source Description: Experimental Factor Ontology; User defined terms",
+    "field": "Term Source Description"
+  },
+  {
+    "id": "ac2cb69288a2dcf556e6",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Identifier: PSI-99",
+    "field": "Study Identifier"
+  },
+  {
+    "id": "0065fe85552d45dd1438",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Title: Spacecraft Fire Experiment-II",
+    "field": "Study Title"
+  },
+  {
+    "id": "447898bbd2be018628f1",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Submission Date: 18-Sep-2024",
+    "field": "Study Submission Date"
+  },
+  {
+    "id": "5074c4f3274aeecf4d21",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Public Release Date: 18-Sep-2024",
+    "field": "Study Public Release Date"
+  },
+  {
+    "id": "3c859686af54dc558109",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study File Name: s_PSI-99.txt",
+    "field": "Study File Name"
+  },
+  {
+    "id": "8413e21707864c25c556",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Approach]: The Saffire-II experiment was performed on the Orbital Science\u2019s Cygnus resupply vehicle after it deberthed from the ISS. As a follow on to the Saffire-I investigation, the Saffire-II investigation added more samples including SIBAL, silicone, structure PMMA, flat PMMA, and PMMA with Nomex. The Saffire-1I flight unit had a sample card installed in the middle of a large flow duct. Air is drawn through the flow duct by fans located at the top of the duct with flow straighteners at the bottom of the experiment module. Saffire-II has a sample card that contains 9 samples, each 5 cm x 29 cm. Depending on the sample material, the Saffire-II was conducted at an air flow velocity of either 20 or 30 cm/s, the flow being either concurrent or opposed.  Once the sample was ignited flame images were captured using two cameras. In addition, thermocouples provided flow, flame, and plume temperatures, two radiometers recorded flame radiation, solid state sensors were used to measure pressure, CO2 and O2 mole faction, and two anemometer tracked flow velocity. All data was compressed, and subsequently downlinked. Details related to samples and experimental parameters are provided in the Experimental Details file in the Science document folder.",
+    "field": "Comment[Approach]"
+  },
+  {
+    "id": "53c34044c79b4fbc6865",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[DOI]: 10.60555/2chp-m469",
+    "field": "Comment[DOI]"
+  },
+  {
+    "id": "7ab89d0bdcfdeb00e28a",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Experiment Hardware]: Cygnus Pressurized Cargo Module, SAFFIRE",
+    "field": "Comment[Experiment Hardware]"
+  },
+  {
+    "id": "df3ac580ec45e61db104",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Experiment Hardware Link]: https://cdn.northropgrumman.com/-/media/wp-content/uploads/Cygnus-Fact-Sheet-1.pdf, https://ntrs.nasa.gov/api/citations/20170000230/downloads/20170000230.pdf",
+    "field": "Comment[Experiment Hardware Link]"
+  },
+  {
+    "id": "a78b13e3638f6367b498",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Flight Platform]: Cygnus Spacecraft",
+    "field": "Comment[Flight Platform]"
+  },
+  {
+    "id": "eedd059846b6a32ba49a",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Funding]: NASA",
+    "field": "Comment[Funding]"
+  },
+  {
+    "id": "c18efb3198fc6e88f8ba",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Hypothesis]: This investigation hypothesizes that due to large differences between fire behavior in normal and reduced gravity, the use of terrestrial fires and fire standards to design spacecraft fire safety systems presents an inherent risk to the vehicle because of the significant level of uncertainty. While this approach has been successful thus far, the uncertainty and risk will increase as exploration missions venture further from earth with considerably longer transit times for a safe return. There is a significant lack of microgravity data available for spacecraft designers on which to base their fire safety designs and procedures. To address this knowledge gap, this investigation proposed to conduct large-scale fire safety experiments in an expendable spacecraft without risk to a crew.",
+    "field": "Comment[Hypothesis]"
+  },
+  {
+    "id": "010480020cb08df7d948",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Investigation Acronym]: SAFFIRE-II",
+    "field": "Comment[Investigation Acronym]"
+  },
+  {
+    "id": "016aa856978cba61bab0",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Investigation End Date]: 04-01-2017",
+    "field": "Comment[Investigation End Date]"
+  },
+  {
+    "id": "5e0bd36bdd961ada3491",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Investigation Start Date]: 09-30-2016",
+    "field": "Comment[Investigation Start Date]"
+  },
+  {
+    "id": "49bf596607de487d101a",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Managing NASA Center]: Glenn Research Center (GRC)",
+    "field": "Comment[Managing NASA Center]"
+  },
+  {
+    "id": "ee5a404bd79aa6819535",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Objective]: The objectives of SAFFIRE-II are to determine how rapidly a large scale fire grows in low-gravity and to investigate the low-g flammability limits compared to those obtained in NASA\u2019s normal gravity material flammability screening test.",
+    "field": "Comment[Objective]"
+  },
+  {
+    "id": "c571101151f10951dd36",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Project Type]: Microgravity Investigation",
+    "field": "Comment[Project Type]"
+  },
+  {
+    "id": "70dfe939d7d1928adad6",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Research Area]: Combustion Science",
+    "field": "Comment[Research Area]"
+  },
+  {
+    "id": "847fe9301a038aecf0cb",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Research Impacts]: The Saffire-II experiment provides a new way to study a realistic fire on an exploration vehicle, which has not been possible in the past because the risks are too high. Instruments on an unmanned cargo vessel measure oxygen, carbon dioxide, heat, pressure and flame growth, and two video cameras provide views of the flame. Results determine microgravity flammability limits for several spacecraft materials, help to validate NASA\u2019s material selection criteria, and how microgravity and limited oxygen affect flame size. The investigation is crucial for the safety of current and future space missions. Studying fire in small, sealed environments such as the Cygnus cargo supply vehicle benefits fire safety and prevention efforts on Earth, including inside mines, airplanes, or submarines.",
+    "field": "Comment[Research Impacts]"
+  },
+  {
+    "id": "0ba41c690adeba975fad",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Space Program]: National Aeronautics and Space Administration (NASA)",
+    "field": "Comment[Space Program]"
+  },
+  {
+    "id": "0ec644e9674ce83ae197",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[SubResearch Area]: Surface Combustion",
+    "field": "Comment[SubResearch Area]"
+  },
+  {
+    "id": "e0caf01550d4e0a5bf72",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Design Type: fire; fire safety; Cygnus; Nomex; SAFFIRE; SHS; Smoldering; Smoke Distribution",
+    "field": "Study Design Type"
+  },
+  {
+    "id": "6f0613d6db6d00cb502a",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Design Type Term Accession Number: https://psi.nasa.gov/; https://psi.nasa.gov/; https://psi.nasa.gov/; https://psi.nasa.gov/; https://psi.nasa.gov/; https://psi.nasa.gov/; https://psi.nasa.gov/; https://psi.nasa.gov/",
+    "field": "Study Design Type Term Accession Number"
+  },
+  {
+    "id": "bd0a36fb59554f77c772",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Design Type Term Source REF: PSI; PSI; PSI; PSI; PSI; PSI; PSI; PSI",
+    "field": "Study Design Type Term Source REF"
+  },
+  {
+    "id": "5bf5d1b54c11bf3816e5",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study PubMed ID: 35197652",
+    "field": "Study PubMed ID"
+  },
+  {
+    "id": "b5be45ffde34aa65c09a",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Publication DOI: 10.1016/j.combustflame.2018.10.012; 10.1016/j.combustflame.2018.10.016; 10.1007/s10694-019-00863-3; 10.1016/j.proci.2018.05.168; 10.1016/j.firesaf.2020.102977",
+    "field": "Study Publication DOI"
+  },
+  {
+    "id": "e4d04af57c55afd5b90a",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Publication Author List: JE Niehaus, PV Ferkul, SA Gokoglu, GA Ruff; W Schoren, GA Ruff, DL Urban; Urban David L., Ferkul Paul, Olson Sandra, Ruff Gary A., Easton John, T'ien James S., Liao Ya-Ting T., Li Chengyao, Fernandez-Pello Carlos, Torero Jose L., Legros Guillaume, Eigenbrod Christian, Smirnov Nickolay, Fujita Osamu, Rouvreau S\u00e9bastien, Toth Balazs, Jomaas Grunde; Thomsen Maria, Fernandez-Pello Carlos, Ruff Gary A., Urban David L.; Olson Sandra L., Urban David L., Ruff Gary A., Ferkul Paul V., Toth Balazs, Eigenbrod Christian, Meyer Florian, Jomaas Grunde; Li Chengyao, Liao Ya-Ting T., T'ien James S., Urban David L., Ferkul Paul, Olson Sandra, Ruff Gary A., Easton John; Wang Xiaoliang, Zhou Hao, Arnott W. Patrick, Meyer Marit E., Taylor Samuel, Firouzkouhi Hatef, Moosm\u00fcller Hans, Chow Judith C., Watson John G.",
+    "field": "Study Publication Author List"
+  },
+  {
+    "id": "b129c0dc6be53639e800",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Publication Title: Buoyant Effects on the Flammability of Silicone Samples Planned for the Spacecraft Fire Experiment (Saffire), Conference: 45th International Conference on Environmental Systems ICES-2015-[293] 12-16 July 2015, Bellevue, Washington; The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status; Flame spread: Effects of microgravity and scale; Buoyancy effects on concurrent flame spread over thick PMMA; Concurrent Flame Spread Over Two-Sided Thick PMMA Slabs in Microgravity; Transient flame growth and spread processes over a large solid fabric in concurrent low-speed flows in microgravity \u2013 Model versus experiment; Evaluation of gas and particle sensors for detecting spacecraft-relevant fire emissions",
+    "field": "Study Publication Title"
+  },
+  {
+    "id": "b96b21b050939093068a",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Publication Status: published; published; published; published; published; published; published",
+    "field": "Study Publication Status"
+  },
+  {
+    "id": "c1de803d3029a0becf73",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Publication Status Term Accession Number: http://www.ebi.ac.uk/efo/EFO_0001796; http://www.ebi.ac.uk/efo/EFO_0001796; http://www.ebi.ac.uk/efo/EFO_0001796; http://www.ebi.ac.uk/efo/EFO_0001796; http://www.ebi.ac.uk/efo/EFO_0001796; http://www.ebi.ac.uk/efo/EFO_0001796; http://www.ebi.ac.uk/efo/EFO_0001796",
+    "field": "Study Publication Status Term Accession Number"
+  },
+  {
+    "id": "6ba80341db9a54069e80",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Publication Status Term Source REF: EFO; EFO; EFO; EFO; EFO; EFO",
+    "field": "Study Publication Status Term Source REF"
+  },
+  {
+    "id": "382752f0ed4d3e8de25f",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[Study Publication Link]: https://www.researchgate.net/publication/282252038_Buoyant_Effects_on_the_Flammability_of_Silicone_Samples_Planned_for_the_Spacecraft_Fire_Safety_Experiment_Saffire; https://ntrs.nasa.gov/search.jsp?R=20170001636; http://dx.doi.org/10.1016/j.combustflame.2018.10.012; http://dx.doi.org/10.1016/j.combustflame.2018.10.016; http://dx.doi.org/10.1007/s10694-019-00863-3; http://dx.doi.org/10.1016/j.proci.2018.05.168; http://dx.doi.org/10.1016/j.firesaf.2020.102977",
+    "field": "Comment[Study Publication Link]"
+  },
+  {
+    "id": "42380734437930c3dab4",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Person Last Name: Urban; Ruff",
+    "field": "Study Person Last Name"
+  },
+  {
+    "id": "fb5bf531e6f5b9d26f63",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Person First Name: David; Gary",
+    "field": "Study Person First Name"
+  },
+  {
+    "id": "097c3b8d7ca975f01598",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Person Mid Initials: L.",
+    "field": "Study Person Mid Initials"
+  },
+  {
+    "id": "6624ca086664c42a6cde",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Person Email: david.l.urban@nasa.gov; gary.a.ruff@nasa.gov",
+    "field": "Study Person Email"
+  },
+  {
+    "id": "ef4778e65e9c5c743538",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Person Affiliation: NASA GRC; NASA GRC",
+    "field": "Study Person Affiliation"
+  },
+  {
+    "id": "42da297cb55662a2f7bf",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Person Roles: Principal Investigator (PI); Investigator",
+    "field": "Study Person Roles"
+  },
+  {
+    "id": "02eb8a4e69bbce57b401",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Person Roles Term Accession Number: Principal Investigator (PI); http://purl.obolibrary.org/obo/NCIT_C51826",
+    "field": "Study Person Roles Term Accession Number"
+  },
+  {
+    "id": "786b028479a8d3a002ff",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Study Person Roles Term Source REF: EFO",
+    "field": "Study Person Roles Term Source REF"
+  },
+  {
+    "id": "c5ca81995242c27b2836",
+    "investigation_id": "PSI-99",
+    "kind": "metadata",
+    "file": "PSI-99/metadata.txt",
+    "text": "Comment[orcidIdentifier]: 0000-0002-7397-2033",
+    "field": "Comment[orcidIdentifier]"
+  },
+  {
+    "id": "9b056da1374ed2e94ea1",
+    "investigation_id": "PSI-99",
+    "kind": "record",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=2-1; Material=Silicone; Samle Thickness =0.27 mm; Sample Length =29 cm; Sample Width (cm)=5 cm; Air Flow (cm/s)=20 cm/s; Percent O2 (Note 1)=~ 21.5; Ignition Power (W)=80 W; Ignition Time (s)=9.2 s; Burn Time (s)=Insignificant; Flow Direction=Concurrent; ?-g Burn Length=~ 0; ?-g Spread Length=n/a; 1-g Burn Length=Complete; 1-g Spread Rate=Acceleratory; Camera 1=S1C1; Camera 2=S1C2",
+    "row_number": 1
+  },
+  {
+    "id": "8d87138550b60d7fe511",
+    "investigation_id": "PSI-99",
+    "kind": "record",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=2-2; Material=Silicone; Samle Thickness =0.61 mm; Sample Length =29 cm; Sample Width (cm)=5 cm; Air Flow (cm/s)=20 cm/s; Percent O2 (Note 1)=~ 22.1; Ignition Power (W)=80 W; Ignition Time (s)=9.2 s; Burn Time (s)=Insignificant; Flow Direction=Concurrent; ?-g Burn Length=~ 0; ?-g Spread Length=n/a; 1-g Burn Length=7.6 cm; 1-g Spread Rate=1.2 mm/s; Camera 1=n/a; Camera 2=S2C2",
+    "row_number": 2
+  },
+  {
+    "id": "d191b9aa515e90d3b5ea",
+    "investigation_id": "PSI-99",
+    "kind": "record",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=2-3; Material=Silicone; Samle Thickness =1.03 mm; Sample Length =29 cm; Sample Width (cm)=5 cm; Air Flow (cm/s)=20 cm/s; Percent O2 (Note 1)=~ 22.1; Ignition Power (W)=80 W; Ignition Time (s)=9.2 s; Burn Time (s)=Insignificant; Flow Direction=Concurrent; ?-g Burn Length=~ 0; ?-g Spread Length=n/a; 1-g Burn Length=~ 0; 1-g Spread Rate=n/a; Camera 2=S3C2",
+    "row_number": 3
+  },
+  {
+    "id": "8c667e42df5fd9c5e917",
+    "investigation_id": "PSI-99",
+    "kind": "record",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=2-4; Material=Silicone; Samle Thickness =037 mm; Sample Length =29 cm; Sample Width (cm)=5 cm; Air Flow (cm/s)=20 cm/s; Percent O2 (Note 1)=~ 22.1; Ignition Power (W)=80 W; Ignition Time (s)=9.2 s; Burn Time (s)=Insignificant; Flow Direction=Opposed; ?-g Burn Length=~ 0; ?-g Spread Length=n/a; 1-g Burn Length=Complete; 1-g Spread Rate=0.6 mm/s; Camera 1=S4C1; Camera 2=S4C1",
+    "row_number": 4
+  },
+  {
+    "id": "ee043373a338f8cb8506",
+    "investigation_id": "PSI-99",
+    "kind": "record",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=2-5; Material=Cotton-Fiberglass (SIBAL); Samle Thickness =037 mm; Sample Length =29 cm; Sample Width (cm)=5 cm; Air Flow (cm/s)=20 cm/s; Percent O2 (Note 1)=~ 22.1; Ignition Power (W)=80 W; Ignition Time (s)=9.2 s; Burn Time (s)=145 s; Flow Direction=Concurrent; ?-g Burn Length=29 cm; ?-g Spread Length=2.1 mm/s; 1-g Burn Length=Complete; 1-g Spread Rate=Acceleratory; Camera 1=S5C1; Camera 2=S5C2",
+    "row_number": 5
+  },
+  {
+    "id": "43721eee3143a30b1aa2",
+    "investigation_id": "PSI-99",
+    "kind": "record",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=2-6; Samle Thickness =037 mm; Sample Length =29 cm; Sample Width (cm)=5 cm; Air Flow (cm/s)=20 cm/s; Percent O2 (Note 1)=~ 22.1; Ignition Power (W)=80 W; Ignition Time (s)=9.2 s; Burn Time (s)=115 s; Flow Direction=Concurrent; ?-g Burn Length=29 cm; ?-g Spread Length=2.6 mm/s; 1-g Burn Length=Complete; 1-g Spread Rate=Acceleratory; Camera 1=S6C1; Camera 2=S56C2",
+    "row_number": 6
+  },
+  {
+    "id": "1e2cb057eeaa95575dc7",
+    "investigation_id": "PSI-99",
+    "kind": "record",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=2-7; Material=PMMA & Nomex; Samle Thickness =0.85 and 0.37 mm; Sample Length =5 and 24 cm; Sample Width (cm)=5 cm; Air Flow (cm/s)=20 cm/s; Percent O2 (Note 1)=~ 22.1; Ignition Power (W)=80 W; Ignition Time (s)=9.2 s; Burn Time (s)=140 s; Flow Direction=Concurrent; ?-g Burn Length=5 cm & 0 (note 2); ?-g Spread Length=n/a (Nomex); 1-g Burn Length=~ 0 (Nomex); 1-g Spread Rate=n/a (Nomex); Camera 1=S7C1; Camera 2=n/a",
+    "row_number": 7
+  },
+  {
+    "id": "5ce2fa3cd9e5587e339b",
+    "investigation_id": "PSI-99",
+    "kind": "record",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=2-8; Material=PMMA; Samle Thickness =See Fig. 5; Sample Length =29 cm; Sample Width (cm)=5 cm; Air Flow (cm/s)=20 cm/s; Percent O2 (Note 1)=22.1 to 22.0; Ignition Power (W)=97 W; Ignition Time (s)=30 s; Burn Time (s)=600 s; Flow Direction=Concurrent; ?-g Burn Length=~ 10 cm (note 3); ?-g Spread Length=Note 4; 1-g Burn Length=Complete; 1-g Spread Rate=Acceleratory; Camera 1=S8C1; Camera 2=n/a",
+    "row_number": 8
+  },
+  {
+    "id": "00752adcb64b3250fc51",
+    "investigation_id": "PSI-99",
+    "kind": "record",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=2-9; Samle Thickness =1 cm; Sample Length =29 cm; Sample Width (cm)=5 cm; Air Flow (cm/s)=20 cm/s; Percent O2 (Note 1)=22.0 to 21.9; Ignition Power (W)=97 W; Ignition Time (s)=30 s; Burn Time (s)=900 s; Flow Direction=Concurrent; ?-g Burn Length=~ 10 cm (note 4); ?-g Spread Length=Note 4; 1-g Burn Length=Complete; 1-g Spread Rate=Acceleratory; Camera 1=S9C1; Camera 2=n/a",
+    "row_number": 9
+  },
+  {
+    "id": "309e53324022e2664a8c",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=F1C1/F1C2; Material=Pre-test flow visulation data for sample 2-1",
+    "row_number": 10,
+    "evidence_role": "CSV note or auxiliary record, not an experiment sample"
+  },
+  {
+    "id": "4088b64df5b340aef327",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=F2C1/F2C2; Material=Pre-test flow visulation data for sample 2-2",
+    "row_number": 11,
+    "evidence_role": "CSV note or auxiliary record, not an experiment sample"
+  },
+  {
+    "id": "b1f2159f1b08ce5e56c6",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=Note 1 Derived from measured CO2 production and referenced to initial O2 concentration reported by ISS.",
+    "row_number": 12,
+    "evidence_role": "CSV note or auxiliary record, not an experiment sample"
+  },
+  {
+    "id": "eb2bb08baee139520416",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=Note 2 The PMMA portion was completely consumed but the Nomex was not ignited.",
+    "row_number": 13,
+    "evidence_role": "CSV note or auxiliary record, not an experiment sample"
+  },
+  {
+    "id": "0911e4c56b6b02355675",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=Note 3 This is the length of fuel with significant visible damage.",
+    "row_number": 14,
+    "evidence_role": "CSV note or auxiliary record, not an experiment sample"
+  },
+  {
+    "id": "4b4b2cab565b633eec0c",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/experiments/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "text": "Sample Number=Note 4 The flames remain anchored at the base of the sample which has a very slow regression rate (0.01 to 0.04 mm/s)",
+    "row_number": 15,
+    "evidence_role": "CSV note or auxiliary record, not an experiment sample"
+  },
+  {
+    "id": "e4042eb4e99843706e8f",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/sources.json",
+    "text": "The nine-row CSV is the supplied experiment-results source. The PDFs describe program context and image organization; the DOCX describes the data package. They are not treated as final measured-results reports.",
+    "field": "Data limitations and source discrepancies"
+  },
+  {
+    "id": "832164bf8d9bf8285e51",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/sources.json",
+    "text": "Airflow discrepancy: The CSV lists 20 cm/s for all samples. Table 1 embedded in the DOCX lists 30 cm/s for S6 and S9. Both versions are retained; this discrepancy is unresolved.",
+    "field": "Data limitations and source discrepancies"
+  },
+  {
+    "id": "f3d3c2c88adc1cb7fff7",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/sources.json",
+    "text": "Material is blank for samples 2-6 and 2-9 in the CSV. The DOCX Table 1 labels S6 as SIBAL fabric and S9 as flat PMMA. Raw CSV blanks are retained rather than filled from the guide.",
+    "field": "Data limitations and source discrepancies"
+  },
+  {
+    "id": "c82a01ba154cf386c7b3",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/sources.json",
+    "text": "Thickness values differ between the CSV and the DOCX Table 1, including CSV entries written as 037 mm. No decimal correction is inferred.",
+    "field": "Data limitations and source discrepancies"
+  },
+  {
+    "id": "ff3323e8346d07071fba",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/sources.json",
+    "text": "Oxygen values include approximations and ranges; Note 1 says these are derived from measured CO2 production and referenced to the ISS initial O2 concentration. The ?-g headers, Note 1\u20134 definitions and auxiliary flow-visualization records are retained. Fig. 5 and the exact meaning of ?-g are not established by the supplied files.",
+    "field": "Data limitations and source discrepancies"
+  },
+  {
+    "id": "7962187b44a84b954337",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Manually transcribed from the supplied data-guide table, not substituted for CSV values. S1: Silicone, 0.25 mm, 20 cm/s, upstream igniter. S2: Silicone, 0.61 mm, 20 cm/s, upstream. S3: Silicone, 1.02 mm, 20 cm/s, upstream. S4: Silicone, 0.36 mm, 20 cm/s, downstream. S5: SIBAL fabric, 0.33 mm, 20 cm/s, upstream. S6: SIBAL fabric, 0.33 mm, 30 cm/s, upstream. S7: PMMA to Nomex, 0.33 mm, 20 cm/s, upstream. S8: Structured PMMA, 10 mm (with tapered edge for ignition), 20 cm/s, upstream. S9: Flat PMMA, 10 mm (with tapered edge for ignition), 30 cm/s, upstream.",
+    "figure": "Table 1. Saffire-II Samples (embedded image word/media/image1.png)",
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "bfa38785058128671c7d",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "The objectives of the SAFFIRE (Spacecraft Fire Experiment) experiments are to (1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-g flammability limits compared to those obtained in NASA\u2019s normal gravity material flammability screening test. The specific objective of SAFFIRE-II tests is to quantify that affect in long-duration low-gravity using samples of the same size as those used in the NASA-STD-6001 Test 1 normal-gravity tests. SAFFIRE-II has a sample card that contains 9 samples, each 5 cm x 29 cm. Sample composition is described in Table 1 and position on the sample card is illustrated in Figure 1.",
+    "paragraph": 1,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "79592d0d21c80a158a63",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": " Table 1. Saffire-II Samples",
+    "paragraph": 3,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "f0fdcfd2e2d43b7fdcf0",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Figure 1. Sample Layout for Saffire-II",
+    "paragraph": 6,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "46a1eceb18a37029cd0b",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "In addition to the 9 samples, data was also collected for pre-flow and post-flow. These image sets are denoted as F1 for pre-flow and F2 for post-flow.",
+    "paragraph": 9,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "fe2c9902fce295b334dd",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "The experiment data is organized in PSI by sample number and camera number. There were 2 cameras capturing images during the experiment and they are denoted as C1 for camera 1 and C2 for camera 2. There are various documents and associated information located on the different tabs within the SAFFIRE Investigations records in PSI. A very useful document to review first is the \u201cSAFFIRE Objectives, Development and Status.pdf\u201d document located on the \u201cOverview\u201d tab in the Summary Document section. The experiment records are found on the \u201cData\u201d tab in the SAFFIRE-II Investigations record. Table 2 contains list of experiment records in PSI and a short description of what each record contains.",
+    "paragraph": 10,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "35158c9fe4a474a287c5",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Table 2. Saffire-II Experiment Data in PSI",
+    "paragraph": 12,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "194104513f491d0bcd30",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Experiment Data Record Name",
+    "paragraph": 13,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "95e30e534e7066362a0d",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Description",
+    "paragraph": 14,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "2e413765640e9ec34c1e",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II F1C1",
+    "paragraph": 15,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "bf9969f043cf42542102",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Pre-flow, camera 1 image sets",
+    "paragraph": 16,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "1c68d97585b58703ad89",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II F1C2",
+    "paragraph": 17,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "5e5f7fd3a0ce62751997",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Pre-flow, camera 2 image sets",
+    "paragraph": 18,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "049e264d89994eaa21de",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II F2C1",
+    "paragraph": 19,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "3c88d1859671e1adee8b",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Post-flow, camera 1 image sets",
+    "paragraph": 20,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "82162e21c0c9a6f1a70f",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II F2C2",
+    "paragraph": 21,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "5ba71c5f09807329159a",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Post-flow, camera 2 image sets",
+    "paragraph": 22,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "d2f529b34e2d66817849",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S1C1",
+    "paragraph": 23,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "bd029615ed1d0bffd3a8",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 1, camera 1 image sets",
+    "paragraph": 24,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "bb83dd253746faa3e9b9",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S1C2",
+    "paragraph": 25,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "e599d26552d4ffd0ebd5",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 1, camera 2 image sets",
+    "paragraph": 26,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "c86c48d645880637ca59",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S2C2",
+    "paragraph": 27,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "6b1eeb7d5f3fe2bb979c",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 2, camera 2 image sets",
+    "paragraph": 28,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "fa6211a0912dd31111b6",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S3C2",
+    "paragraph": 29,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "19ce4bebd11297e03d8d",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 3, camera 2 image sets",
+    "paragraph": 30,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "99942edef71ca9d75269",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S4C1",
+    "paragraph": 31,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "f7204b383407d61c0e35",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 4, camera 1 image sets",
+    "paragraph": 32,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "f7def088dda8529caf95",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S4C2",
+    "paragraph": 33,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "045a2ea5bbd32d9290c8",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 4, camera 2 image sets",
+    "paragraph": 34,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "0c60710fb112f26e5d6a",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S5C1",
+    "paragraph": 35,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "1fbc28500dccf8560364",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 5, camera 1 image sets",
+    "paragraph": 36,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "3a6873b0a7ae6a938e72",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S5C2",
+    "paragraph": 37,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "f9415b397eea5f47baa0",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 5, camera 2 image sets",
+    "paragraph": 38,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "b31f157ad6a72e8b6446",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S6C1",
+    "paragraph": 39,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "364f89dc9f98eebf1f68",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 6, camera 1 image sets",
+    "paragraph": 40,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "ccc1b6b4be74f7284607",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S6C2",
+    "paragraph": 41,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "5bc6ed3c406fc1226c40",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 6, camera 2 image sets",
+    "paragraph": 42,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "35ff8e576d811dd1bbe5",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S7C1",
+    "paragraph": 43,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "ced37f0124133aeafad5",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 7, camera 1 image sets",
+    "paragraph": 44,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "4a5418a8d2b92803df64",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S8C1",
+    "paragraph": 45,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "df511fcd04ef0b49ed38",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 8, camera 1 image sets",
+    "paragraph": 46,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "48af633ead25e3491a9c",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "SAFFIRE-II S9C1",
+    "paragraph": 47,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "fd74fb4332c86d65eade",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Sample 9, camera 1 image sets",
+    "paragraph": 48,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "1fc48bc370e8397305ad",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Each Experiment Data record contains raw data and multiple image sets. Associated raw data documents and individual image sets are located on the \u201cScientific Data and Information\u201d tab within the Experiment Data record. The raw data is captured from each experimental sensor and presented in excel files. The suite of experimental sensors used is summarized in Table 3. ",
+    "paragraph": 50,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "a4d101e4c71bd85b62ce",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Table 3. Saffire, I, II and III Diagnostics",
+    "paragraph": 52,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "bd9ef671fa6d05a0303b",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Table 4 contains a description of the different SAFFIRE image sets loaded in PSI.",
+    "paragraph": 55,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "13dbb825f8d513c8b3db",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Table 4. SAFFIRE Image Sets in PSI",
+    "paragraph": 57,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "d5cae188409197dd53ec",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Image Set Name",
+    "paragraph": 58,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "3b1409b63f74ba9be92b",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Description",
+    "paragraph": 59,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "64e99bc32d03d5148b58",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "BIT",
+    "paragraph": 60,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "4c0fc625cc79bbdcd463",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Built-In Test images were captured immediately after the payload was powered on",
+    "paragraph": 61,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "deb292b7627a7fa079a8",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "DistortionGrids_Sample_ROI",
+    "paragraph": 62,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "67082d9d79024eac4e69",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Image sets characterize the camera distortion of the system (pre-flight) using a checkerboard pattern grid",
+    "paragraph": 63,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "a840e2ed3125c0af8538",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "DistortionGrids_Sample_ROI_Mapped",
+    "paragraph": 64,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "e8edafda0be775661d57",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "DistortionGrid images processed post-flight where the distortion of the camera system is corrected, or mapped, to a flat grid",
+    "paragraph": 65,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "89e5e6c17ca07a464d6f",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "jpeg",
+    "paragraph": 66,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "c50f925bf98f52914263",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Jpeg images created on-board SAFFIRE payload and downlinked by command",
+    "paragraph": 67,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "f37e24458d6ea6c1f858",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Jpeg_Mapped",
+    "paragraph": 68,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "50fba66afe25c542293d",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Jpeg images processed post-flight where the distortion of the camera system is corrected, or mapped, to a flat grid",
+    "paragraph": 69,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "33f5d95b79600f9393ff",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "jpeg2png_icmad",
+    "paragraph": 70,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "f83b0442f31d2337fb55",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Jpeg images annotated with ICMAD 'Exposure' and 'Gain' information.  Data is appended to the bottom of each frame using ImageMagick script and re-saved as .png format to minimize additional compression artifacts",
+    "paragraph": 71,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "c5bab88fcc14b95afd50",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Raw_DistroMaster",
+    "paragraph": 72,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "19013109d18838d19788",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Camera original RAW files recorded on-board and downlinked on command.  Contains 8-byte offset that must be processed prior to color interpolation and distribution",
+    "paragraph": 73,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "496ec58286ea6fc47e8d",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Raw2TIFF",
+    "paragraph": 74,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "e441a62e9621fa7868cd",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "TIFF images of the RAW Distribution Master files, color interpolated (demosaiced) using IrfanView Batch Conversion process",
+    "paragraph": 75,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "570cc1e8204fbf749d6e",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Raw2TIFF_Mapped",
+    "paragraph": 76,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "13978faf3c715b5b62b1",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "RAW2TIFF images processed post-flight where the distortion of the camera system is corrected, or mapped, to a flat grid",
+    "paragraph": 77,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "5a0c9cf14c5d68f57460",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Raw2TIFF_icmad",
+    "paragraph": 78,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "88543240af6096a95870",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Raw2TIFF files annotated with ICMAD 'Exposure' and 'Gain' information. Data is appended to the bottom of each frame using ImageMagick script and resaved as TIFF",
+    "paragraph": 79,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "26617d1595ec1c84a843",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Raw2TIFF_icmad_Mapped",
+    "paragraph": 80,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "fcdf6d7dd3e23ce157e4",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "RAW2TIFF_icmad images processed post-flight where the distortion of the camera system is corrected, or mapped, to a flat grid",
+    "paragraph": 81,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "3fc5c5b71ff4125ef3e5",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II DoD.docx",
+    "text": "Some image sets are very large. They may contain over 10,000 images which makes it impractical to display as thumbnails in the Image Gallery which appears on the \u201cImage Data and Information\u201d tab of the Videos & Images record of the image set. In the case of very large image sets, all the images are provided in zip files labeled \u201cOriginal Image Files\u201d on the \u201cImage Data and Information\u201d tab. These files can be downloaded and viewed on the local machine.",
+    "paragraph": 83,
+    "offset": 0,
+    "evidence_role": "Experiment data guide"
+  },
+  {
+    "id": "6073f7b7e33d8ca82262",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "                                                              https://ntrs.nasa.gov/search.jsp?R=20170001636 2018-04-20T15:24:03+00:00Z\n\n\n\n\n                        THE SPACECRAFT FIRE EXPERIMENT (SAFFIRE) -\n                          OBJECTIVES, DEVELOPMENT AND STATUS\n\n                                  William Schoren(1), Gary A. Ruff, David L. Urban\n                (1)\n                  NASA John H. Glenn Research Center, 21000 Brookpark Road, Cleveland, OH 44135,\n                                       Email: william.r.schoren@nasa.gov\n\n\nABSTRACT                                                           remain so as NASA plans future exploration missions.\n                                                                   Many microgravity combustion experiments have been\nSince 2012, the Spacecraft Fire Experiment (Saffire) has\n                                                                   performed on the Space Shuttle and continue to be\nbeen under development by the Spacecraft Fire Safety\n                                                                   performed on the International Space States (ISS) and\nDemonstration (SFS Demo) project that is funded by\n                                                                   the data from these experiments have contributed to our\nNASA\u2019s Advanced Exploration Systems Division in the\n                                                                   understanding of how to prevent and protect crewed\nHuman Exploration and Operations Mission\n                                                                   spacecraft from fire. However, none of these\nDirectorate. The overall objective of this project is to\n                                                                   experiments have studied sample and environment s",
+    "page": 1,
+    "offset": 0,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "d93abfae88b9ac415692",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "                       understanding of how to prevent and protect crewed\nHuman Exploration and Operations Mission\n                                                                   spacecraft from fire. However, none of these\nDirectorate. The overall objective of this project is to\n                                                                   experiments have studied sample and environment sizes\nreduce the uncertainty and risk associated with the\n                                                                   typical of those expected in a spacecraft fire [1]. Prior\ndesign of spacecraft fire safety systems for NASA\u2019s\n                                                                   experiments have been limited to samples no larger than\nexploration missions. This is accomplished by defining,\n                                                                   10 cm in length and width whereas a serious spacecraft\ndeveloping, and conducting experiments that address\n                                                                   fire would likely be much larger and consume much\ngaps in spacecraft fire safety knowledge and capabilities\n                                                                   more material. Because of the large differences between\nidentified by NASA\u2019s Fire Safety System Maturation\n                                                                   fire behavior in normal and reduced gravity, there is a\nTeam. This paper describes the three Spacecraft Fire\n                                                                   significant lack of data available for spacecraft\nExperiments (Saffire-I, -II, and -III) that were\n                                                                   designers on which to base their fire safety designs an",
+    "page": 1,
+    "offset": 1400,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "1202365282d6e021a4a9",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "   fire behavior in normal and reduced gravity, there is a\nTeam. This paper describes the three Spacecraft Fire\n                                                                   significant lack of data available for spacecraft\nExperiments (Saffire-I, -II, and -III) that were\n                                                                   designers on which to base their fire safety designs and\ndeveloped at NASA-GRC and that will conduct a series\n                                                                   procedures. The use of terrestrial fires and fire standards\nof material flammability tests in low-gravity and at\n                                                                   to design spacecraft fire safety systems presents an\nlength scales that are realistic for a spacecraft fire. The\n                                                                   inherent risk to the vehicle because of the significant\nexperiments will be conducted in Orbital ATK\u2019s\n                                                                   level of uncertainty. While this approach has been\nCygnus vehicle after it has unberthed from the\n                                                                   successful thus far, the uncertainty and risk will increase\nInternational Space Station. The tests will be fully\n                                                                   as exploration missions venture further from earth with\nautomated with the data downlinked at the conclusion of\n                                                                   considerably longer transit times for a safe return.\nthe test and before the Cygnus vehicle reenters the\n                                                                   Despite their obvious importance, full scale spacecr",
+    "page": 1,
+    "offset": 2800,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "76c0e18ebded8c99021f",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "exploration missions venture further from earth with\nautomated with the data downlinked at the conclusion of\n                                                                   considerably longer transit times for a safe return.\nthe test and before the Cygnus vehicle reenters the\n                                                                   Despite their obvious importance, full scale spacecraft\natmosphere. The objectives of these experiments are to\n                                                                   fire experiments have not been possible because of the\n(1) determine how rapidly a large scale fire grows in\n                                                                   inherent hazards involved with conducting a large fire\nlow-gravity and (2) investigate the low-g flammability\n                                                                   test in a crewed vehicle. To address this knowledge gap,\nlimits compared to those obtained in NASA\u2019s normal\n                                                                   a project was proposed to conduct large-scale fire safety\ngravity material flammability screening test. The\n                                                                   experiments in an expendable spacecraft without risk to\nhardware for these experiments has been completed and\n                                                                   a crew.\nis awaiting their respective launches, all planned for\n                                                                         In October 2011, the NASA Advanced Exploration\n2016. This paper will review the objectives of these\n                                                                   Systems (AES) Division of NASA\u2019s Human\nexperiments and how they address several of the\n    ",
+    "page": 1,
+    "offset": 4200,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "bc5a5e78b8e19364050b",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "      a crew.\nis awaiting their respective launches, all planned for\n                                                                         In October 2011, the NASA Advanced Exploration\n2016. This paper will review the objectives of these\n                                                                   Systems (AES) Division of NASA\u2019s Human\nexperiments and how they address several of the\n                                                                   Exploration and Operations Mission Directorate funded\nknowledge gaps for NASA\u2019s exploration missions. The\n                                                                   this project to develop and demonstrate spacecraft fire\nhardware development will be discussed including\n                                                                   safety technologies in relevant environments. The\nseveral novel approaches that were taken for testing and\n                                                                   keystone demonstration to be performed was a large-\nevaluation of these series payloads. The status of the\n                                                                   scale fire safety experiment to be conducted on an ISS\nmissions and operational status will also be presented.\n                                                                   re-supply vehicle after it has left the ISS and before it\n                                                                   enters the earth\u2019s atmosphere. The project team led from\n1.   INTRODUCTION                                                  NASA\u2019s John H. Glenn Research Center (GRC) was\n                                                                   identified and began formulating such an experiment.\nTests on full-scale transportation vehicles, build",
+    "page": 1,
+    "offset": 5600,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "a432675b788c8be832a4",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "                                                           enters the earth\u2019s atmosphere. The project team led from\n1.   INTRODUCTION                                                  NASA\u2019s John H. Glenn Research Center (GRC) was\n                                                                   identified and began formulating such an experiment.\nTests on full-scale transportation vehicles, buildings,            The NASA team was augmented by an international\nhomes, and habitats have been common on earth to                   topical team assembled by the European Space Agency\nmore fully understand the fire hazards associated with\n                                                                   (ESA) [2]. The participation of members from other\neach application and how best to protect the passengers            countries and space agencies not only brings additional\nand inhabitants from a potential fire. Fire safety on              skills to the science team but also facilitates\nspacecraft has been a significant concern for NASA\n                                                                   international cooperation in the development of an\nduring the decades of crewed spaceflight and will                  approach to spacecraft fire prevention and response for\n",
+    "page": 1,
+    "offset": 7000,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "d2a17b6d5133f0860824",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "future exploration vehicles. The current spaceflight                                                        Fans\nexperiment funded and being developed by NASA\naddresses two objectives. The first objective is to\nunderstand the flame spread and growth of a fire over a\nlarge piece of flammable material, consistent with                   Power\nclothing or other fabric likely to be in a spacecraft           Management\n                                                                                                              Sample card\ncabin. This sample material is approximately 0.94                                                             (flame sprea\nmeters long and 0.4 meters wide. This will be at least an                                                     sample\n                                                                                                              shown)\norder of magnitude larger in both dimensions than any              Cameras\nprior low-g flame spread experiment. The second\nobjective is to examine the flammability limits of\nmaterials in low gravity for comparison with results of         Avionics Bay                                   Flow Duct\n\nNASA\u2019s terrestrial normal gravity evaluation tests. The\nstatus of the development of the flight experiment and                   Signal\n                                                                   conditioning\nthe individual contributions of the topical team will be                   card\ndiscussed in subsequent sections.                                                                              Flow\n                                                                                                               straightene\n\n2.   EXPERIMENT DESCRIPTION\n    The premise for the design of the flight",
+    "page": 2,
+    "offset": 0,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "c3451cd1aea645233510",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "tioning\nthe individual contributions of the topical team will be                   card\ndiscussed in subsequent sections.                                                                              Flow\n                                                                                                               straightene\n\n2.   EXPERIMENT DESCRIPTION\n    The premise for the design of the flight experiment\n                                                             Figure 1: Schematic of the Spacecraft Fire Safety\nwas that practically all of the hardware would be\n                                                             Demonstration Experiment. The experiment module\nidentical in the three units except possibly for the\n                                                             consists of a flow duct containing the sample card\nsample material(s) to be burned. The concept for this\n                                                             and an avionics bay. All power, computer, and data\nexperiment focuses on conducting two types of material\n                                                             acquisition modules are contained in the bay. The\ncombustion tests to be performed on different flights of\nthe Cygnus vehicle. The experiment package consists of       experiment module is approximately 53- by 90- by\na flow duct and an adjacent avionics bay. A schematic        133-cm.\nof the flow duct is shown in Fig. 1. The flow duct forms     cm/s while Saffire-III will be run at a flow velocity of\nthe primary chamber of the experiment while the              30 cm/s .\navionics bay is connected to the side of the flow duct as\nshown in the figure. A LexanTM panel forms the wall          Saffire-II has a sample card that contains 9 samples,\nbetween the flow duct a",
+    "page": 2,
+    "offset": 1400,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "7455f0fc9325ee7065ac",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "       133-cm.\nof the flow duct is shown in Fig. 1. The flow duct forms     cm/s while Saffire-III will be run at a flow velocity of\nthe primary chamber of the experiment while the              30 cm/s .\navionics bay is connected to the side of the flow duct as\nshown in the figure. A LexanTM panel forms the wall          Saffire-II has a sample card that contains 9 samples,\nbetween the flow duct and the avionics bay. Air is           each 5 cm x 29 cm. Table 1 lists the samples contained\ndrawn through the flow duct by fans located at the top       on Saffire-II while Fig. 2 shows their locations on the\nof the duct with flow straighteners at the bottom of the     sample card. These materials were selected because they\nexperiment module. The flow duct/avionics bay                have normal gravity Maximum Oxygen Concentration\nassembly is a rigid structure and will be secured with       (MOC) flammability limits that indicate they will burn\nthe standard stowage straps used in the Cygnus vehicle.      in normal gravity just above and below 21% O2 by\nThis duct will provide a uniform flow across the             volume, i.e., the expected concentration of O2 when\nsamples, maintain a clear flow path within the\nexperiment module, and prevent burning debris from                       1        2          3\n\ninteracting with the rest of the cargo. The sample card is\npositioned in the center of the flow duct as shown in\nFig. 1.\n\n2.1 Sample Materials                                                     4        5          6\n\n\nThe sample material for Saffire-I and III is a composite\nfabric consisting of cotton on a fiberglass substrate\n(75% cotton, 25% fiberglass by weight). It is called                                             SIBAL\nSIBAL cloth because it was developed for the Sol",
+    "page": 2,
+    "offset": 2800,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "1ac7f531af99476bb31e",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "er of the flow duct as shown in\nFig. 1.\n\n2.1 Sample Materials                                                     4        5          6\n\n\nThe sample material for Saffire-I and III is a composite\nfabric consisting of cotton on a fiberglass substrate\n(75% cotton, 25% fiberglass by weight). It is called                                             SIBAL\nSIBAL cloth because it was developed for the Solid\nInflammability Boundary at Low-Speeds (SIBAL)                            7        8          9   Silicone\nspaceflight experiment and has been used in many space                                           Silicone\nexperiments because it burns like cotton but maintains                                           opposed\nstructural integrity after the cotton is consumed. The                                            PMMA\nobjective of the Saffire-I and III tests will be to\ndetermine how rapidly a large-scale fire grows in low-                                             Nomex\ngravity and whether it reaches a steady-state spread rate.                        Air Flow\nSaffire-I will be conducted at an air flow velocity of 20             Figure 2: Sample layout for Saffire-II\n",
+    "page": 2,
+    "offset": 4200,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "9c01b619c7902c7073dc",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "             Table 1. Saffire-II Samples                                   and atmospheric parameters. The diagnostic suite used\n   Sample                           Sample        Air Flow       Igniter   in Saffire are shown in Table 2. The primary experiment\n                   Material\n   Number                          Thickness       (cm/s)       Position   data will be provided by two cameras that view one side\n      S1            Silicone       0.25 mm          20        Upstream\n                                                                           of the sample card.\n\n      S2            Silicone       0.61 mm          20        Upstream     2.3 Experiment Development\n      S3            Silicone       1.02 mm          20        Upstream     The Saffire flight systems (hardware and software)\n                                                                           underwent the NASA flight experiment development\n      S4            Silicone       0.36 mm          20       Downstream\n                                                                           reviews and testing although these processes were\n      S5          SIBAL fabric     0.33 mm          20        Upstream     heavily tailored to realize savings in cost and schedule.\n                                                                           Because all three units were being developed in parallel,\n      S6          SIBAL fabric     0.33 mm          30        Upstream     some components were ready to progress to the next\n      S7\n                   PMMA to\n                                   0.33 mm          20        Upstream\n                                                                           development phase before the entire system for all three\n                    Nomex         ",
+    "page": 3,
+    "offset": 0,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "358ed1e599d982d315a1",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "\n      S6          SIBAL fabric     0.33 mm          30        Upstream     some components were ready to progress to the next\n      S7\n                   PMMA to\n                                   0.33 mm          20        Upstream\n                                                                           development phase before the entire system for all three\n                    Nomex                                                  units had completed that phase. The logic behind the\n                                  10 mm (with\n      S8\n                  Structured\n                                                    20        Upstream\n                                                                           tailoring was to tailor the review criteria to allow\n                                 tapered edge\n                    PMMA                                                   components that were ready to progress onto the next\n                                  for ignition)\n                                  10 mm (with                              development phase while the remainder of the system\n      S9          Flat PMMA      tapered edge       30        Upstream     was completed. Given the design of the system and the\n                                  for ignition)                            risk tolerance advocated by the Advanced Exploration\n                                                                           Systems Division, this approach was warranted. A\nCygnus unberths from ISS. Drop tower testing has                           Mission Concept Review/System Requirements Review\ndemonstrated the MOC flammability limits of a material                     was held in November 2012 and followed\ncan be different in low-g than in normal gravity [3-5]",
+    "page": 3,
+    "offset": 1400,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "a08e57fb8a3850b7aa67",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "                                                          Systems Division, this approach was warranted. A\nCygnus unberths from ISS. Drop tower testing has                           Mission Concept Review/System Requirements Review\ndemonstrated the MOC flammability limits of a material                     was held in November 2012 and followed\ncan be different in low-g than in normal gravity [3-5].                    approximately 7 months later by a Periodic Technical\nTherefore, the objective of the Saffire-II tests is to                     Review-1 (PTR-1) that combined NASA\u2019s typical\nquantify that affect in long-duration low-gravity using                    Preliminary Design Review/Critical Design Review.\nsamples of the same size as those used in the in NASA-\nSTD-6001 Test 1 normal-gravity tests [3]. Some of                          Fabrication of the mechanical components for Saffire-I\nthese samples are expected to burn while others may                        was performed at NASA-GRC to ensure the accuracy of\nnot.                                                                       the drawings. NASA\u2019s Fabrication Alliance, a\n                                                                           coordination of the fabrication shops at all NASA\nQuantifying the difference in flammability limits for                      centers, was used to manufacture some of the\nlarge samples is the objective of the Saffire-II                           components for Saffire-II and III again to help maintain\nexperiments.                                                               project schedule without being limited by the staffing\n                                                                           demands of other projects at NASA-GRC. Components\n    Table 2. Saf",
+    "page": 3,
+    "offset": 2800,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "12f3caadcb343a6bbe5a",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "ge samples is the objective of the Saffire-II                           components for Saffire-II and III again to help maintain\nexperiments.                                                               project schedule without being limited by the staffing\n                                                                           demands of other projects at NASA-GRC. Components\n    Table 2. Saffire-I, II, and III Diagnostics\n     Measurement               Method                Location\n                                                                           for the second and third flight units was performed by\n                                                                           the Fabrication Shops at NASA Johnson Space Center\n  Flow temperature       thermocouples inlet and outlet of flow duct\n                                                                           (JSC) and White Sands Test Facility (WSTF). All\n  Flame temperature thermocouples embedded in sample                       avionics manufacturing was conducted at NASA-GRC.\n\n  Plume temperature thermoocouple                                          Periodic Technical Review-2, a tailored System\n                                          two viewing front of sample;     Integration Review marking the start of system\n  Flame radiation        radiometers\n                                          two viewing back of sample       assembly was held in February 2014 with the assembly\n                         solid\u2010state\n  CO2 mole fraction                       in avionics bay                  of the flight system being completed in October 2014.\n                         sensor\n                         solid\u2010state                                       Because of the similarity of the slight systems an",
+    "page": 3,
+    "offset": 4200,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "b618a99e73c024959dc9",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "ng back of sample       assembly was held in February 2014 with the assembly\n                         solid\u2010state\n  CO2 mole fraction                       in avionics bay                  of the flight system being completed in October 2014.\n                         sensor\n                         solid\u2010state                                       Because of the similarity of the slight systems and the\n  O 2 mole fraction                       inlet to avionics bay\n                         sensor                                            risk posture of AES projects, the project tailored the\n                         solid\u2010state                                       approach to environmental testing and functional\n  Pressure                                in avionics bay\n                         sensor                                            testing. Table 3 shows the environmental tests\n  Flow velocity          anemometers      one on each side of sample       performed on each flight unit along with the date this\n                                                                           testing began.\n  Flame image            cameras          two viewing front of sample\n\n  Flow uniformity        smoke wire       leading edge of sample           Various levels of functional testing was performed on\n                                                                           all three flight units before and after all environmental\n2.2 Diagnostics                                                            testing to verify the health of the flight unit being tested\n                                                                           and to collect performance data. Additional functional\nCamera images of the flame are the primary data                            te",
+    "page": 3,
+    "offset": 5600,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "c6b9e4a1c01b5649ad02",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "ll three flight units before and after all environmental\n2.2 Diagnostics                                                            testing to verify the health of the flight unit being tested\n                                                                           and to collect performance data. Additional functional\nCamera images of the flame are the primary data                            testing was performed throughout 2015 for validation\nmeasurement obtained from the Saffire experiment but                       and verification of software and other systems. These\nthere are other diagnostics to measure other flow, flame,                  test results were compared across all three flight units to\n",
+    "page": 3,
+    "offset": 7000,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "c134797acf5852cd97d3",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "     Table 3. Summary of Saffire Environmental                             the toxic gases would be present when the Cygnus hatch\n     Tests                                                                 is opened to the ISS. The power and communication\n                                             Saffire Unit/Date\n                                                                           interfaces between Cygnus and Saffire are utilized to\n                   Test                                                    control this hazard. Cygnus provides two power feed\n                                      I              II            III\n     Safety\u2010critical Relay                                                 circuits to Saffire due to power requirements. One\n                                    Nov\u201013          Nov\u201013       Nov\u201013    power feed circuit provides power to the Saffire\n     Component Vibe Test\n     Camera Component Vibe                                                 avionics, the other provides power to the igniter\n                                    Dec\u201013          Dec\u201013       Dec\u201013\n     Test                                                                  circuitry. There are two latching relays in each of these\n     Power Management                                                      two power feed circuits, one in the power feed side, one\n                                      \u2010\u2010            Mar\u201014       Mar\u201014\n     System Vibe Test                                                      in the return. These four latching relays are contained\n     System Vibe Test               Oct\u201014          \u2010\u2010             \u2010\u2010      within the Saffire flight unit but are controlled and\n     System Thermal Test            Nov\u201014       Oct\u201014          Nov\u201014    monitored b",
+    "page": 4,
+    "offset": 0,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "9334bc9d002fd5cd9b88",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "                    \u2010\u2010            Mar\u201014       Mar\u201014\n     System Vibe Test                                                      in the return. These four latching relays are contained\n     System Vibe Test               Oct\u201014          \u2010\u2010             \u2010\u2010      within the Saffire flight unit but are controlled and\n     System Thermal Test            Nov\u201014       Oct\u201014          Nov\u201014    monitored by Cygnus avionics. A separate ground\n                                                 Nov\u201014                    command to the Cygnus avionics is required to close\n     Off\u2010gas System Test              \u2010\u2010        (samples         Nov\u201014    each of these four latching relays. Igniter activation\n                                                   only)                   requires that all four relays be closed. This is because\n     EMI/EMC System Test            Dec\u201014        Jan\u201015         Feb\u201015\n                                                                           Saffire avionics provides an enable command to a\n                                                                           DC/DC converter in the igniter circuitry and also\nverify and demonstrate consistency between the flight                      provides commanding to solid state relay switches on\nunits. The System Acceptance Review marking the                            the igniter control card within the igniter power feed\ncompletion of the flight hardware was held in                              circuitry. In addition, a ground command to the Saffire\nSeptember 2015.                                                            avionics via Cygnus avionics is required to initiate an\n                                                                           igniter activation for an experiment run. Cygnus\n2.4 Launc",
+    "page": 4,
+    "offset": 1400,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "b972cbd2071ec15dcce9",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "feed\ncompletion of the flight hardware was held in                              circuitry. In addition, a ground command to the Saffire\nSeptember 2015.                                                            avionics via Cygnus avionics is required to initiate an\n                                                                           igniter activation for an experiment run. Cygnus\n2.4 Launch and Operation                                                   avionics and the associated ground commanding\nThe Saffire-I flight unit was successfully launched                        provide the required failure tolerance for control of the\nwithin the Cygnus PCM on an Atlas V launch vehicle                         Saffire hazard of inadvertent igniter activation.\non March 22, 2016 as part of the OA-6 mission. The\nCygnus vehicle was successfully berthed to the ISS on                      Significant focus was placed on these four latching\nMarch 26, 2016. As of the writing of this paper, the un-                   relays due to their safety criticality. This attention is\nberthing of the Cygnus is scheduled for June 2, 2016                       reflected in the environmental testing performed as\nand Saffire-I is scheduled to operate a few hours                          shown in Table 3. The relays for all three flight units\nafterwards. Data from Saffire-I will be downlinked over                    were vibration tested at the component level. Tailoring\nthe next several days prior to destructive re-entry of                     of the environmental testing resulted in only Saffire I\nCygnus about June 10. Saffire-II and III are planned to                    being vibration tested at a system level. Therefore,\nlaunch from the Wallops Flight Facility on Orbital                     ",
+    "page": 4,
+    "offset": 2800,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "69af1156180ec600855c",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "              were vibration tested at the component level. Tailoring\nthe next several days prior to destructive re-entry of                     of the environmental testing resulted in only Saffire I\nCygnus about June 10. Saffire-II and III are planned to                    being vibration tested at a system level. Therefore,\nlaunch from the Wallops Flight Facility on Orbital                         vibration testing was performed on the Saffire II and III\nATK\u2019s Antares rocket with the tentative dates shown in                     Power Management Systems that includes the relays to\nTable 4.                                                                   address the criticality of these relays and the associated\n                                                                           risk of this tailored system-level vibration testing.\n     Table 4. Launch and Operation Dates for Saffire-                      Safety engineering input was critical to developing a\n     I-III (as of 4/30/2016)                                               design solution that was acceptable from an ISS payload\n                          Mission          Launch            Operations    safety perspective due to the interface limitations\n     Saffire\u2010I             OA\u20106       22\u2010Mar\u20102016            2\u2010Jun\u20102016    between Saffire and Cygnus.\n     Saffire\u2010II            OA\u20105      NET 6\u2010July\u20102016         19\u2010Sep\u20102016\n                                                                           This hazard along with the other typical ISS payloads\n     Saffire\u2010III           OA\u20107       30\u2010Dec\u20102016            3\u2010Mar\u20102017\n                                                                           hazards are documented in the Saffire Unit I Flight\n     NET \u2010 no earlier than\n                             ",
+    "page": 4,
+    "offset": 4200,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "33207f9348330c9eb6b1",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "    19\u2010Sep\u20102016\n                                                                           This hazard along with the other typical ISS payloads\n     Saffire\u2010III           OA\u20107       30\u2010Dec\u20102016            3\u2010Mar\u20102017\n                                                                           hazards are documented in the Saffire Unit I Flight\n     NET \u2010 no earlier than\n                                                                           Safety Data Package. The ISS Payload Safety Review\n                                                                           Panel (PSRP) reviewed and approved this Package at\n3.      SAFFIRE EXPERIMENT SAFETY                                          the Phase I/II level in August of 2013 and again at the\n                                                                           Phase III level in March 2015. These Payload Safety\nEven though this experiment will be conducted during                       Reviews were augmented by a handful of Technical\nthe un-crewed portion of the flight, the Cygnus vehicle                    Interchange Meetings (TIMs) with the PSRP including\nberths with the ISS and, therefore, the experiment is                      TIMs to address the inadvertent igniter activation\nsubject to many of the same safety considerations as                       hazard. These TIMs were of tremendous value in the\nother ISS payloads. The major safety hazard is                             overall safety approval process by providing a focused\ninadvertent igniter activation prior to the Cygnus de-                     review of specific safety issues.\nberthing from the ISS. This would result in the exposure\nof the flight crew to toxic gases that are produced from\nthe combustion event. It should be noted that this hazard\nis a ",
+    "page": 4,
+    "offset": 5600,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "8b19b424974e6d24572f",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "ds. The major safety hazard is                             overall safety approval process by providing a focused\ninadvertent igniter activation prior to the Cygnus de-                     review of specific safety issues.\nberthing from the ISS. This would result in the exposure\nof the flight crew to toxic gases that are produced from\nthe combustion event. It should be noted that this hazard\nis a concern prior to Cygnus berthing to the ISS since\n",
+    "page": 4,
+    "offset": 7000,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "1dd31e738236d6414b1e",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "                              Table 5. Spacecraft Fire Safety Demonstration Experiment Objectives\n                                                                                                                            Saffire-I, II,   Saffire-IV,\n               Area                               Objective                                    Comment                                                     Ground\n                                                                                                                                 III           V, VI\n                             Quantify growth and end state of realistic fires\n                                                                              Require to validate computational\n     Fire behavior/modeling: in spacecraft and their influence on vehicle                                                        X               X\n                                                                              models\n                             habitability\n                                                                              More realistic configurations than Saffire-\n                              Flame behavior in complex geometries                                                                               X\n                                                                              I, II, and III\n                                                                              Elevated O2, lower P; compare with\n                             Flame behavior for planar and complex\n      Fire growth/dynamics                                                    Saffire-I, II, III; supplement small-scale                         X\n                             geometries in exploration atmospheres\n                  ",
+    "page": 5,
+    "offset": 0,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "ed82580bcdc71cf57f0d",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "                                                                  Elevated O2, lower P; compare with\n                             Flame behavior for planar and complex\n      Fire growth/dynamics                                                    Saffire-I, II, III; supplement small-scale                         X\n                             geometries in exploration atmospheres\n                                                                              tests in Combustion Integrated Rack\n                             Measure flame behavior over large-scale\n                                                                              Continues Saffire-I and III investigations         X               X\n                             planar surfaces\n                             Demonstrate performance of prototype Orion Demonstration of prototype flight\n       Post-fire monitoring                                                                                                                      X           X\n                             and ISS combustion product monitor               hardware\n                             Obtain data to validate transport and detection\n                                                                              Required for model development                                     X           X\n                             models\n                             Demonstrate fire detection with multi-moment Demonstrate capability to reject\n           Fire Detection                                                                                                                                    X\n                             sensors                                          nuisance alarms\n                             Evaluate performance of hybrid",
+    "page": 5,
+    "offset": 1400,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "eacf6711536e71df2d8b",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "          Demonstrate fire detection with multi-moment Demonstrate capability to reject\n           Fire Detection                                                                                                                                    X\n                             sensors                                          nuisance alarms\n                             Evaluate performance of hybrid fire detection Combustion product detection by\n                                                                                                                                                             X\n                             (smoke and gaseous products)                     prototype combustion product monitor\n                             Quantify rate of decay of gas species after a\n       Post-fire monitoring                                                   Required for model development                                     X           X\n                             spacecraft fire\n                             Quantify atmosphere cleanup rate with\n         Post-fire cleanup                                                    Demo of prototype flight hardware                                  X           X\n                             prototype smoke-eater\n                             Performance of low-momentum water mist           Effectiveness of fire ports using water\n         Fire Suppression                                                                                                                                    X\n                             suppression                                      mist fire suppression\n\n4.   SPACECRAFT FIRE SAFETY KNOWLEDGE                                                   is planned for June 2016 with a design review planned\n  ",
+    "page": 5,
+    "offset": 2800,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "126d120bc651118b00c2",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "     Fire Suppression                                                                                                                                    X\n                             suppression                                      mist fire suppression\n\n4.   SPACECRAFT FIRE SAFETY KNOWLEDGE                                                   is planned for June 2016 with a design review planned\n     GAPS AND FUTURE EXPERIMENTS                                                        for December 2016.\nThe experiments being developed for Saffire-I, -II, and\n                                                                                        5.    CONCLUSIONS\n\u2013III will be the first of their kind to evaluate low-g\nmaterial flammability with direct implications for fire                                 The Spacecraft Fire Safety Demonstration Project has\nsafety on future exploration vehicles. One of the                                       designed, manufactured, assembled and tested three\ndrawbacks of these experiments is that a relatively small                               Saffire flight units. The decision to develop flight units\nnumber of tests will be conducted (two large samples                                    of nearly identical design allowed for the tailoring of\nand nine smaller samples). A thorough evaluation of                                     environmentally testing that resulted in cost and\nthese phenomena would require many more samples                                         schedule savings without introducing significant risk.\nand range of materials. Also, if they are typical of most                               This design similarity also allowed for the comparison\nlow-g combustion experiments, the findings will raise                              ",
+    "page": 5,
+    "offset": 4200,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "0edf8e300ff0392cadf0",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "ting that resulted in cost and\nthese phenomena would require many more samples                                         schedule savings without introducing significant risk.\nand range of materials. Also, if they are typical of most                               This design similarity also allowed for the comparison\nlow-g combustion experiments, the findings will raise                                   of test results to verify consistency when testing was\nadditional    significant    questions    for    material                               performed across all three flight units. Safety\nflammability in spacecraft. The Saffire hardware and the                                engineering input was critical to developing an\nCygnus vehicle provides a unique opportunity to                                         acceptable design solution to control the inadvertent\ndemonstrate other fire safety technologies including fire                               igniter activation hazard due to the interface limitations\ndetection, fire suppression, post-fire cleanup and                                      between Saffire and Cygnus. Technical Interchange\nmonitoring. Needs in these areas have been identified                                   Meetings (TIMs) with the ISS Payload Safety Review\nby NASA\u2019s Spacecraft Fire Safety Systems Maturation                                     Panel proved to be invaluable to the overall safety\nTeam and are summarized in Table 5. Because of the                                      approval process by providing a focused review of\nimportance of addressing these remaining needs to crew                                  specific safety issues.\nsafety in exploration missions, AES management\nauthorized the SFS Demo project to plan for three more           ",
+    "page": 5,
+    "offset": 5600,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "31b9813a9ba73a91bea7",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "o be invaluable to the overall safety\nTeam and are summarized in Table 5. Because of the                                      approval process by providing a focused review of\nimportance of addressing these remaining needs to crew                                  specific safety issues.\nsafety in exploration missions, AES management\nauthorized the SFS Demo project to plan for three more                                  Conducting these three experiments will be a milestone\nSaffire experiments, Saffire-IV, V, and VI, that will                                   for spacecraft fire safety. The data and follow on\naddress objectives not achieved in Saffire-I-III. Of                                    analysis will provide verification of spacecraft fire\nparticular note is that many of these objectives require                                safety design and operations for future exploration\nsupporting ground-based experimentation to perform                                      vehicles and their crews. Development of the Saffire-IV\nthe parametric investigations that are required to fully                                \u2013 VI flight units will extend spacecraft fire safety\nunderstand the phenomena in question. The objective of                                  knowledge related to the combustion by-products and\nthe flight experiment is to anchor the ground-based                                     fire detection.\nexperiments with flight data.\n                                                                                        6.    ACKNOWLEDGEMENTS\nWhile the planning for the follow-on experiments is\n                                                                                        The members of the Fire Safety in Space International\nunderway, the development process is ",
+    "page": 5,
+    "offset": 7000,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "31a93953f99cce7d66e6",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "            fire detection.\nexperiments with flight data.\n                                                                                        6.    ACKNOWLEDGEMENTS\nWhile the planning for the follow-on experiments is\n                                                                                        The members of the Fire Safety in Space International\nunderway, the development process is intended to\n                                                                                        Topical Team are acknowledged for their continued\nmirror the processes executed with Saffire-I-III. The\n                                                                                        contributions to the development of the Saffire series of\nMission Concept Review/System Requirements Review\n",
+    "page": 5,
+    "offset": 8400,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "7a65c3efa44e23b014d9",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": "experiments. The members are: Gary A. Ruff , David L.\nUrban, and Sandra Olson (NASA Glenn Research\nCenter), Carlos Fernandez-Pello (UC Berkeley), James\nS. T\u2019ien and Ya-Ting Liao (Case Western Reserve\nUniversity), Jose L. Torero (University of Queensland,\nBrisbane, Australia), Guillaume Legros (Universit\u00e9\nPierre et Marie Curie, Paris, France), Christian\nEigenbrod (University of Bremen (ZARM), Bremen,\nGermany), Nickolay Smirnov (Moscow Lomonosov\nState University, Moscow, Russia), Osamu Fujita\n(Hokkaido University, Sapporo, Japan), Sebastien\nRouvreau (Belisama R&D, Toulouse, France), Balazs\nToth (ESA ESTEC, Noordwijk, Netherlands), and\nGrunde Jomaas (Technical University of Denmark, Kgs.\nLyngby, Denmark).\n\nThe Spacecraft Fire Safety Demonstration project is\nfunded by the Advanced Exploration Systems Division\nin NASA\u2019s Human Exploration and Operations Mission\nDirectorate.\n\n7.   REFERENCES\n1.      Ruff, G.A., Urban, D.L., Pedley, M.D., Johnson,\n        P.T., Safety Design for Space Systems edited by\n        Gary Musgrave et al. Chapter 27 \u201cFire Safety,\u201d\n        Elsevier, 2009.\n2.      Ruff, G.A., Urban, D.L., Fernandezs-Pello A.C.,\n        T\u2019ien, J.S., Torero, K. L., Legros, G., Eigenbrod, C.,\n        Smirnov, N., Fujita, O., Cowlard, A.J., Rouvreau,\n        S., Minster, O., Toth, B., and Jomaas, G. (2013)\n        Development of Large-Scale Spacecraft Fire Safety\n        Experiments, Paper No. AIAA-2013-3410, 2013\n        International    Conference      on     Environmental\n        Systems, Vail, CO.\n3.      Hirsch, D.B., Williams, J.H., Haas, J.P., Beeson,\n        H.D., and Pedley, M.D., \u201cOxygen Concentration\n        Flammability Thresholds of Selected Aerospace\n        Materials Considered for the Constellation\n        Program,\u201d Proceedings of the 2nd IAASS\n        Confer",
+    "page": 6,
+    "offset": 0,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "a2dc696acee0d81b4355",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE Objectives, Development and Status.pdf",
+    "text": ", Paper No. AIAA-2013-3410, 2013\n        International    Conference      on     Environmental\n        Systems, Vail, CO.\n3.      Hirsch, D.B., Williams, J.H., Haas, J.P., Beeson,\n        H.D., and Pedley, M.D., \u201cOxygen Concentration\n        Flammability Thresholds of Selected Aerospace\n        Materials Considered for the Constellation\n        Program,\u201d Proceedings of the 2nd IAASS\n        Conference, Chicago, May 14-16, 2007; (also ESA\n        SP-645, July 2007).\n4.      Olson, S.L., Ruff, G.A., Miller, F.J., Microgravity\n        Flame Spread in Exploration Atmospheres:\n        Pressure, Oxygen, and Velocity Effects on Opposed\n        and Concurrent Flame Spread,\u201d Paper No. 2008-01-\n        2005,     38th     International    Conference     on\n        Environmental Systems, San Francisco, CA, June\n        29-July 2, 2008.\n5.      Olson, S.L., Hirsch, D.B., and Ferkul, P.V.,\n        \u201cImproving Materials Flammability Screening For\n        Spacecraft Fire Safety,\u201d Proceedings of the 2010\n        Technical Meeting of the Central States Section of\n        the Combustion Institute, Champaign, Illinois,\n        March 2010.\n",
+    "page": 6,
+    "offset": 1400,
+    "evidence_role": "Program objectives and development context; not a final results report"
+  },
+  {
+    "id": "8dfd5a91d124aea66a0b",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II_Image_Directory_Nomenclature_v3.0.pdf",
+    "text": "SAFFIRE-II\nImage Directory Nomenclature\nVersion 3.0\n\n\n\n\nXnCn_Raw_CamOriginal              Camera original RAW files recorded on-board and downlinked on command.\n                                  Contains 8-byte offset that must be processed prior to color interpolation and\n                                  distribution. This data set is archived at NASA-GRC.\n\n\nXnCn_Raw_DistroMaster             RAW Camara Orginal files processed for 8-byte offset using ImageJ, and resaved\n                                  using originial file name. This is the RAW Distribution Master set for Science Team\n                                  distribution and color interpolation (demosaicing).\n\n\nXn_Raw2TIFF                       TIFF images of the RAW Distribution Master files, color interpolated (demosaiced)\n                                  using IrfanView Batch Conversion process.\n\n\n\nXn_Raw2TIFF_icmad                 Raw2TIFF files annotated with ICMAD 'Exposure' and 'Gain' information. Data is\n                                  appended to the bottom of each frame using ImageMagick script and resaved as\n                                  TIFF.\n\n\nXn_jpeg                           Jpeg images created on-board SAFFIRE payload and downlinked by command\n\n\n\n\nXn_jpeg_corrupt                   Jpeg images received corrupted after downlink.\n\n\n\n\nXn_jpeg2png_icmad                 Jpeg images annotated with ICMAD 'Exposure' and 'Gain' information. Data is\n                                  appended to the bottom of each frame using ImageMagick script and re-saved as\n                                  .png format to minimize additional compression artifacts.\n\n\n  \"Xn\" Denotes run type and number\n  \"Cn\" Denotes camera number (if sorted separately)\n\n\n\n\n                                                        ",
+    "page": 1,
+    "offset": 0,
+    "evidence_role": "Image directory reference"
+  },
+  {
+    "id": "ee54dab8d5ce0cbabe93",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II_Image_Directory_Nomenclature_v3.0.pdf",
+    "text": "MAD 'Exposure' and 'Gain' information. Data is\n                                  appended to the bottom of each frame using ImageMagick script and re-saved as\n                                  .png format to minimize additional compression artifacts.\n\n\n  \"Xn\" Denotes run type and number\n  \"Cn\" Denotes camera number (if sorted separately)\n\n\n\n\n                                                            Page 1 of 2\n",
+    "page": 1,
+    "offset": 1400,
+    "evidence_role": "Image directory reference"
+  },
+  {
+    "id": "88ec8a241676f78bcf92",
+    "investigation_id": "PSI-99",
+    "kind": "context",
+    "file": "PSI-99/reports/SAFFIRE-II_Image_Directory_Nomenclature_v3.0.pdf",
+    "text": "                    SAFFIRE-II_Image_Data_Package Contents\n\n\nBit   F1   F2   S1       S2      S3         S4      S5   S6      S7   S8   S9\n\n\n\n\n      X    X    X         X       X         X       X        X   X    X    X\n\n\n\n\n      X    X    X         X       X         X       X        X   X    X    X\n\n\n\n\n                X         X       X         X       X        X   X    X    X\n\n\n\n\n      X    X    X         X       X         X       X        X   X    X    X\n\n\n\n\n      X    X    X         X       X         X       X        X   X    X    X\n\n\n\n                X         X       X         X       X        X   X    X    X\n\n\n\n\n                                      Page 2 of 2\n",
+    "page": 2,
+    "offset": 0,
+    "evidence_role": "Image directory reference"
+  }
+]

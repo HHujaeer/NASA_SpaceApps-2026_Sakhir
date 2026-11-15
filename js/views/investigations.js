@@ -1,0 +1,36 @@
+/* VIEW: builds HTML from the model. It never changes state. */
+const SORTS=[["name:asc","Name"],["id:asc","ID"],["row_count:desc","Most records"],["completeness:desc","Most complete"]];
+const InvestigationsView={
+render(){return st.sub==="detail"?InvestigationsView.detail():st.sub==="add"?InvestigationsView.add():InvestigationsView.list()},
+list(){
+ const f=st.f,L=vd.list,S=vd.inv.stats,names=a=>(a||[]).map(x=>x.value);
+ return`<div class="row sp"><div><h2>Investigations</h2><p class="sub">${L.length} of ${S.investigation_count} shown</p></div><button class="btn" data-a="sub" data-v="add">Add investigation</button></div>
+ <div class="row"><label class="f">Search<input id="q" value="${e(st.q)}"></label><label class="f">Gravity<select id="f_grav">${opt(GR,f.grav,"All")}</select></label><label class="f">Material<select id="f_mat">${opt(names(S.materials),f.mat,"All")}</select></label><label class="f">Sensor<select id="f_sens">${opt(names(S.sensors),f.sens,"All")}</select></label>
+ <label class="f">O₂ min %<input id="f_omin" type="number" value="${e(f.omin)}" style="min-width:80px;width:80px"></label><label class="f">O₂ max %<input id="f_omax" type="number" value="${e(f.omax)}" style="min-width:80px;width:80px"></label>
+ <label class="f">P min kPa<input id="f_pmin" type="number" value="${e(f.pmin)}" style="min-width:80px;width:80px"></label><label class="f">P max kPa<input id="f_pmax" type="number" value="${e(f.pmax)}" style="min-width:80px;width:80px"></label>
+ <label class="f">Sort<select id="f_sort">${SORTS.map(s=>`<option value="${s[0]}" ${f.sort===s[0]?"selected":""}>${s[1]}</option>`).join("")}</select></label><button class="btn" data-a="clear">Clear</button></div>
+ ${L.length?`<table><tr><th>Investigation</th><th>Material</th><th>Gravity</th><th>Oxygen</th><th>Records</th><th></th></tr>${L.map(i=>`<tr class="go" data-a="view" data-v="${e(i.id)}"><td><b style="font-weight:500">${e(i.id)}</b><br><span style="color:var(--dim)">${e(i.title)}</span></td><td>${e(nr(i.mat))}</td><td>${e(nr(i.grav))}</td><td>${e(nr(i.o2))}</td><td>${i.rows}</td><td><button class="btn">View</button></td></tr>`).join("")}</table>`:'<p class="sub">No investigations match. Files with missing values or unknown units cannot match numeric filters.</p>'}
+ ${vd.unreadable.length?`<p class="err">Unreadable files: ${vd.unreadable.map(u=>e(u.id+" ("+u.error+")")).join("; ")}</p>`:""}`},
+detail(){
+ const i=vd.det,q=i.dq,plot=selectInvestigationPlot(i),xs=[...new Set(i.plots.map(p=>p.x))],ys=i.plots.filter(p=>p.x===st.dx).map(p=>p.y);
+ return`<div class="investigation-layout"><section class="investigation-content"><div class="row sp"><button class="btn" data-a="sub" data-v="list">&lsaquo; All investigations</button><div class="row" style="margin:0"><button class="btn" data-a="del">Delete</button></div></div>
+ <h2>${e(i.id)}</h2><p class="sub">${e(i.title)}</p><p class="lead">${e(nr(i.desc))}</p>
+ <dl><dt>Material</dt><dd>${e(nr(i.mat))}</dd><dt>Gravity</dt><dd>${e(nr(i.grav))}</dd><dt>Mission / facility</dt><dd>${e(nr(i.hw))}</dd><dt>Oxygen</dt><dd>${e(nr(i.o2))}</dd><dt>Pressure</dt><dd>${e(nr(i.pr))}</dd>
+ <dt>Varied between tests</dt><dd>${e(nr(i.vary))}</dd><dt>Sensors</dt><dd>${e(nr(i.sens))}</dd><dt>Source</dt><dd>${e(i.src)}</dd><dt>Data file</dt><dd>${e(i.file)}, ${i.total} records</dd>
+ <dt>Completeness</dt><dd>${pct(q.completeness)} (${q.missing_cells} of ${q.total_cells} cells missing${q.skipped_malformed_rows?"; "+q.skipped_malformed_rows+" malformed rows skipped":""})</dd></dl>
+ <p class="note">Run-level values are listed below for model validation. Missing cells are shown as —, never as zero.</p>
+ ${i.approach||i.testPlan?`<details class="investigation-procedure"><summary>Approach and test plan</summary>${i.approach?`<h4>Approach from metadata</h4><p class="source-prose">${e(i.approach)}</p>`:''}${i.testPlan?`<h4>Test-plan scope</h4><p class="source-prose">${e(i.testPlan)}</p><p class="note">The test plan describes intended scope, rather than measured outcomes.</p>`:''}</details>`:''}
+ ${i.documents.length?`<details class="investigation-procedure"><summary>Source documents (${i.documents.length})</summary><ul>${i.documents.map(d=>`<li>${e(d.role||(d.kind==='presentation'?'Presentation':'Report'))}: ${e(d.file)} · ${d.pages?d.pages+" PDF pages":d.paragraphs+" document paragraphs"}</li>`).join('')}</ul></details>`:''}
+ ${i.dataNotes.length?`<details class="investigation-procedure" open><summary>Data notes and source differences</summary><ul>${i.dataNotes.map(n=>`<li>${e(n)}</li>`).join('')}</ul></details>`:''}
+ ${i.tableNotes.length?`<details class="investigation-procedure"><summary>Table notes and auxiliary records</summary>${i.tableNotes.map(n=>`<p>${e(n.text)}</p><footer>${e(n.file)}, source row ${n.row_number}</footer>`).join('')}</details>`:''}
+ <h3>Experiment records <span class="sub">(${i.total})</span></h3><div class="records-scroll" role="region" aria-label="Experiment records, scroll for more rows and columns" tabindex="0">${runTable(i)}</div>
+ <h3>Chart</h3>${plot?`<div class="row chart-controls"><label class="f">Independent variable<select id="dx">${opt(xs,plot.x)}</select></label><label class="f">Measured outcome<select id="dm">${opt(ys,plot.y)}</select></label></div>${scatter(plot.points,plot.x,plot.y,plot.labels)}<p class="note">${plot.points.length} paired records${plot.omitted?`; ${plot.omitted} records without an exact, comparable pair omitted`:''}. ${plot.labels?'Each point is an individual record grouped by the selected experimental factor.':'Each point is an observed pair; other test conditions may differ.'}</p>`:'<p class="sub">No comparable measurements paired with a varying experimental input are available for a chart.</p>'}
+ <h3>Findings</h3>${i.find?`<p>${e(i.find)}</p>`:i.findings.length?i.findings.map(f=>`<blockquote><p>${e(f.text.replace(/\s+/g," ").trim())}</p><footer>${e(f.basis)} · ${e(f.file)}, ${f.page?"PDF page "+f.page:"source row "+f.row_number}</footer></blockquote>`).join(""):'<p>No findings have been extracted into this profile. Ask the investigation assistant to explore the available evidence.</p>'}</section>${InvestigationChatView.render(i.id)}</div>`},
+add(){
+ const x=vd.addErr,dup=x&&x.code==="investigation_exists";
+ return`<button class="btn" data-a="sub" data-v="list">&lsaquo; Cancel</button><h2 style="margin-top:14px">Add investigation</h2><p class="sub">The CSV is uploaded to the backend and becomes available to every page straight away.</p>
+ <div class="row"><label class="f">CSV file<input id="a_f" type="file" accept=".csv"></label><label class="f">ID (optional, defaults to the file name)<input id="a_id" style="min-width:260px" placeholder="letters, digits, _ or -"></label><label class="f">Existing ID<span><input id="a_ow" type="checkbox" style="min-width:0" ${dup?"checked":""}> replace it</span></label></div>
+ ${x?errMsg(x)+(dup?'<p class="note">Tick "replace it" to overwrite the existing investigation.</p>':""):""}
+ <div class="row"><button class="btn on" data-a="pub">Upload</button></div>
+ <p class="note">One file is one investigation and each row is one record. Put units in column headers (for example Pressure_kPa, O2_pct) so values can be compared; empty cells stay empty, not zero. Column names the backend recognises are listed in its README.</p>`}
+};
